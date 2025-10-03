@@ -1,0 +1,43 @@
+.card_img {
+    border-radius: 63% 20% 30% 10% / 40% 33% 50% 50%;
+    transition: all 10s;
+    animation: anim 10s infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes anim {
+    0% {
+      border-radius: 63% 20% 30% 10% / 40% 33% 50% 50%;
+    }
+  
+    50% {
+      border-radius: 13% 60% 80% 30% / 20% 36% 10% 30%;
+    }
+  }
+
+  @keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .animate_jump {
+    display: inline-block;
+    animation: jump 1s infinite ease-in-out;
+  }
+  
+  .animate_jump_delay {
+    display: inline-block;
+    animation: jump 1s infinite ease-in-out;
+    animation-delay: 0.2s;
+  }
+  
+  .animate_jump_delay_2 {
+    display: inline-block;
+    animation: jump 1s infinite ease-in-out;
+    animation-delay: 0.4s;
+  }
+  
