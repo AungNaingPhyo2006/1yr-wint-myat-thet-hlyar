@@ -23,7 +23,7 @@ export default function Home() {
               </div>
               <Link
             href="/about"
-            className="absolute top-[550px] sm:top-[550px] md:top-[750px]  bg-[#d42a69] text-white flex  items-center justify-center rounded-[50px] w-[150px] h-[50px] active:bg-[#e992b0]"
+            className="absolute top-[550px] sm:top-[550px] md:top-[750px]  bg-[#AE4890] text-white flex  items-center justify-center rounded-[50px] w-[150px] h-[50px] active:bg-[#e992b0]"
           >
             Next
           </Link>

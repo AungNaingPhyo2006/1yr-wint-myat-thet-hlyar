@@ -20,7 +20,7 @@ const About = () => {
         </div>
         <Link
             href="/"
-            className="absolute top-[520px] sm:top-[520px] md:top-[750px]  bg-[#d42a69] text-white flex  items-center justify-center rounded-[50px] w-[150px] h-[50px] active:bg-[#e992b0]"
+            className="absolute top-[520px] sm:top-[520px] md:top-[750px]  bg-[#AE4890] text-white flex  items-center justify-center rounded-[50px] w-[150px] h-[50px] active:bg-[#e992b0]"
           >
            Done
           </Link>
