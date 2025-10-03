@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
-import PageWrapper from "./page_wrapper";
 import home_one_img from "../public/assets/images/home/home1.jpg";
 import invitation from "../public/assets/images/home/first_page.png";
 import home_three_img from "../public/assets/images/home/home3.jpg";

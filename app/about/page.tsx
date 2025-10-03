@@ -1,4 +1,3 @@
-import PageWrapper from "../page_wrapper";
 import Image from 'next/image'
 import location from "../../public/assets/images/home/second_page.png";
 import Link from "next/link";
